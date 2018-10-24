@@ -5,7 +5,7 @@
   if(answer==1)*/
 	{
   
-	  const char * filename="ROOTFILES/bkg2initial.root"; //file contaiing original histogram created with initialroot.C
+	  const char * filename="ROOTFILES/bkg4initial.root"; //file contaiing original histogram created with initialroot.C
 	  TFile *MyFile = new TFile(filename,"READ");
 	  if(MyFile->IsOpen())cout<<filename<<" file opened successfully\n";
 	  TH1F *h = (TH1F*)MyFile->Get("histo");

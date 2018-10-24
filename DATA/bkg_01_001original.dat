@@ -1,3 +1,9 @@
+Run started....................:  Fri Sep 21 15:52:39 2018
+  in time zone.................:  UTC
+  in time since epoch..........:  1537545159 s
+Run  time......................:       86407.76 s
+Live time......................:       86400.00 s
+Number of data channels........:       16384
     0         0
     1         0
     2         0
@@ -16382,3 +16388,5 @@
 16381         0
 16382         0
 16383         0
+Energy calibration function....:      0.15448454 keV +     0.38903224 keV/chn
+FWHM   calibration function....:      3.38180470 keV +     0.00080216 keV/chn
