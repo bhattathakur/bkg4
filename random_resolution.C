@@ -1,6 +1,6 @@
 {
-  const char * errors_fromresolution="DATA/bkg2results_from_resolution.dat";
-  const char * saving_random="PLOT/bkg2randompd.pdf";
+  const char * errors_fromresolution="DATA/bkg4results_from_resolution.dat";
+  const char * saving_random="PLOT/bkg4randompd.pdf";
 
   const int ENERGY=1332;
   const int TRIALS=pow(10,6);
