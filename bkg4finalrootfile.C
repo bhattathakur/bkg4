@@ -1,9 +1,9 @@
 //Energy calibration function....:      0.15448454 keV +     0.38903224 keV/chn
 {
    //Defining the files
-  const char * root_file="ROOTFILES/bkg2final.root"; //Stores the root file
-  const char * inputdatafile="DATA/bkg_002.dat"; //original data files which stores two columns of data
-  const char * intercept_slopefile="DATA/bkg2slope_intercept.dat";
+  const char * root_file="ROOTFILES/bkg4final.root"; //Stores the root file
+  const char * inputdatafile="DATA/bkg_01_001.dat"; //original data files which stores two columns of data
+  const char * intercept_slopefile="DATA/bkg4slope_intercept.dat";
     
     //Defining the constants
   double b1=0.15448454;

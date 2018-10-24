@@ -5,7 +5,7 @@
   if(answer==1)*/
 	{
   
-	 const char * filename="ROOTFILES/bkg2final.root";
+	 const char * filename="ROOTFILES/bkg4final.root";
 	  TFile *MyFile = new TFile(filename,"READ");
 	  if(MyFile->IsOpen())cout<<filename<<" file opened successfully\n";
 	  TH1F *h = (TH1F*)MyFile->Get("histo");
